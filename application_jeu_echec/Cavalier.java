@@ -11,3 +11,4 @@ public class Cavalier extends Piece {
         soit deux cases en avant et une sur les cotés */
     }
 }
+
