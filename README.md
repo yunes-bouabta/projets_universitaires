@@ -8,7 +8,7 @@ Programmation orienté objet en Java, Diagramme de classe UML
 `application_diffusion_echec`
 Developpement web en Python (Flask), PostgreSQL, Analyse des besoins (user story), HTML, CSS, diagramme UML
 
-`bdd_catastrophes_naturelles`
+`bdd_catastrophes_naturelles`\n
 PostgreSQL, diagramme de relation UML
 
 `bdd_analyse_donnees_reseau_social`
