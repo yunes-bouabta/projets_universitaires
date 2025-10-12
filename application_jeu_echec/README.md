@@ -11,7 +11,7 @@ DESCRIPTION DU PROJET CI-DESSOUS:
 Ce projet m'a permis de travailler mes compétences en programmation orienté objet. J'ai pu travailler en utilisant l'heritage, les classes abstraites, les instances venant d'autre classe et autre.
 Pour le commencer, il était impératif de créer un diagramme de classe UML avant de coder :
 
-![Diagramme de classe UML](./diagramme_uml_java.jpg)
+![Diagramme de classe UML](./diagramme_uml_java.png)
 
 A partir de celui-ci, j'ai pu commencer le code et mettre en place ce jeu sur terminal.
 
