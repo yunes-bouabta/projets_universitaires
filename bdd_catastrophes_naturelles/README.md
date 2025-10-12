@@ -1,3 +1,5 @@
+# bdd_catastrophes_naturelles
+
 Depuis le fichier plat "Climate_related_disasters_frequency.csv" et ses différentes colonnes, j'ai établi le diagramme relationnel suivant :
 
 ![Diagramme UML de la base de données](./diagramme_uml_bdd.jpg)
