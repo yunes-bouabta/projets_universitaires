@@ -5,7 +5,7 @@ Ci-dessous sont indiqués les compétences mobilisées pour chaque projet.
 `application_jeu_echec`\
 Programmation orienté objet en Java, Diagramme de classe UML
 
-`application_diffusion_echec`\
+`application_diffusion_sonore`\
 Developpement web en Python (Flask), PostgreSQL, Analyse des besoins (user story), HTML, CSS, diagramme UML
 
 `bdd_catastrophes_naturelles`\
