@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>joueurs</title>
+		<link type="text/css" rel="stylesheet" href="joueurs.css"/>
+	</head>
+	<body>
+<!--------------------->
+<h2>Joueurs :</h2>
+<p id="ajouter">
+	<label>nom:   <input id="ajout-nom"   type="text"/></label>
+	<label>score: <input id="ajout-score" type="text"/></label>
+	<input id="bouton-ajouter" type="button" value="ajouter"/>
+</p>
+<table id="joueurs">
+	<tr>
+		<td class="effacer" ><img src="https://moodle.iutv.univ-paris13.fr/img/js/effacer.png"  /></td>
+		<td class="modifier"><img src="https://moodle.iutv.univ-paris13.fr/img/bjs/modifier.png"/></td>
+		<td class="nom">Leïla</td>
+		<td class="score">121</td>
+	</tr>
+	<tr>
+		<td class="effacer" ><img src="https://moodle.iutv.univ-paris13.fr/img/js/effacer.png"  /></td>
+		<td class="modifier"><img src="https://moodle.iutv.univ-paris13.fr/img/bjs/modifier.png"/></td>
+		<td class="nom">Driss</td>
+		<td class="score">153</td></tr>
+	<tr>
+		<td class="effacer" ><img src="https://moodle.iutv.univ-paris13.fr/img/js/effacer.png"  /></td>
+		<td class="modifier"><img src="https://moodle.iutv.univ-paris13.fr/img/bjs/modifier.png"/></td>
+		<td class="nom">Lian</td>
+		<td class="score">210</td>
+	</tr>
+	<tr>
+		<td class="effacer" ><img src="https://moodle.iutv.univ-paris13.fr/img/js/effacer.png"  /></td>
+		<td class="modifier"><img src="https://moodle.iutv.univ-paris13.fr/img/bjs/modifier.png"/></td>
+		<td class="nom">Joe</td>
+		<td class="score">32</td>
+	</tr>
+	<tr>
+		<td class="effacer" ><img src="https://moodle.iutv.univ-paris13.fr/img/js/effacer.png"  /></td>
+		<td class="modifier"><img src="https://moodle.iutv.univ-paris13.fr/img/bjs/modifier.png"/></td>
+		<td class="nom">Naïma</td>
+		<td class="score">261</td>
+	</tr>
+	<tr>
+		<td class="effacer" ><img src="https://moodle.iutv.univ-paris13.fr/img/js/effacer.png"  /></td>
+		<td class="modifier"><img src="https://moodle.iutv.univ-paris13.fr/img/bjs/modifier.png"/></td>
+		<td class="nom">Karim</td>
+		<td class="score">183</td>
+	</tr>
+	<tr>
+		<td class="effacer" ><img src="https://moodle.iutv.univ-paris13.fr/img/js/effacer.png"  /></td>
+		<td class="modifier"><img src="https://moodle.iutv.univ-paris13.fr/img/bjs/modifier.png"/></td>
+		<td class="nom">Anon.</td>
+		<td class="score">0</td>
+	</tr>
+</table>
+<p>
+	total   : <span id="total"  >960</span><br/>
+</p>
+<div id="popup">
+	<p><label for="popup-nom"  >nom:  </label><input id="popup-nom"   type="text"/></p>
+	<p><label for="popup-score">score:</label><input id="popup-score" type="text"/></p>
+    <p>
+		<input id="popup-annuler" type="button" value="annuler"/>
+		<input id="popup-ok" type="button" value="ok"/>
+	</p>
+</div>
+
+<!--------------------->
+	<script src="joueurs.js"></script>
+	</body>
+</html>
