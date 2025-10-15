@@ -2,6 +2,9 @@
 Dossier contenenant les dossiers de mes projets universitaires avec leur code et documentation.
 Ci-dessous sont indiqués les compétences mobilisées pour chaque projet.
 
+`travaux_pratiques`
+Developpement application web Interface Machine-Humain (IHM) en JavaScript et Python (Flask), Developpement application en Java
+
 `application_jeu_echec`\
 Programmation orienté objet en Java, Diagramme de classe UML
 
