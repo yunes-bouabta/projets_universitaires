@@ -1,17 +1,8 @@
 public class CompteBancaire {
-
-	/**
-	 * nom du propriétaire du compte
-	 */
-	private String nom;
-	/**
-	 * solde du compte
-	 */
-	private float solde;
-	/**
-	 * numero du compte 
-	 */
-	private String numero;
+	
+	private String nom; // nom propriétaire du compte
+	private float solde; // solde du compte
+	private String numero; // numero de compte
 
 	/**
 	 * Constructeur de CompteBancaire avec les valeurs données en
