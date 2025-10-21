@@ -2,7 +2,6 @@
 ```
 pip3 install flask
 pip install bcrypt --break-packages
-
 ```
 
 # POUR LANCER L'APPLICATION
