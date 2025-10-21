@@ -11,7 +11,7 @@ pip install bcrypt --break-packages
 ```
 python3 main.py
 ```
-- Ctrl+Click sur le lien affiché "http://localhost:8000" ou copiez collez sur un moteur de recherche
+- Ctrl+Click sur le lien affiché dans le terminal "http://localhost:8000" ou copiez collez sur un moteur de recherche
 
 # A SAVOIR
 
