@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="container p-5 my-5">
+	<div class="row row-cols-4 g-4">
+		{% for pokemon in pokemons %}
+			<div class="col">
+				<div class="card">
+					
+					{% set imgsrc = url_for("static", filename="img/pokemons/"+ '{0:03}'.format(pokemon.number) +".png") %}
+					<img class="card-img-top" src='{{ imgsrc }}' alt="{{ pokemon.name }} image"/>
+					
+					<div class="card-body">
+						<h1 class="card-title">{{ pokemon.name|french|capitalize }}</h1> <span class="badge rounded-pill text-bg-light"><i class="bi bi-hammer"></i>{{pokemon.getGlobalAttack()|round|int}}</span><span class="badge rounded-pill text-bg-light"><i class="bi bi-shield"></i>{{pokemon.getGlobalDefense()|round|int}}</span>
+						
+						<button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#{{ pokemon.name }}">See stats</button>
+
+						<div id="{{ pokemon.name }}" class="collapse">
+							{% for k, v in pokemon.__dict__.items() %}
+								<p class="card-text"><strong>{{k}}:</strong> {{ v }}</p>
+							{% endfor %}
+						</div>
+
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+		<div class="col"></div>
+	</div>
+</div>
+
+{% endblock %}
